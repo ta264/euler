@@ -1,0 +1,8 @@
+#! /usr/bin/python
+
+val = 1000
+multiples3 = range(3,val,3)
+multiples5 = range(5,val,5)
+multiples = set(multiples3 + multiples5)
+
+print sum(multiples)
